@@ -1,26 +1,3 @@
-/*Faça um programa, na linguagem C, que simule uma calculadora contendo as operações de
-adição, subtração, multiplicação, divisão e potenciação. Inicialmente o programa deverá
-apresentar uma tela com um menu de operações que poderão ser realizadas, sendo da
-seguinte forma:
-0 – Sair
-1 – Adição
-2 – Subtração
-3 – Multiplicação
-4 – Divisão
-5 – Potenciação
-A seguir, o programa deverá solicitar que o usuário informe a operação a ser realizada
-conforme apresentada no menu. Caso o usuário não informe a opção 0 (sair), os dois
-operandos deverão ser solicitados em seguida. Após os operandos serem informados, o
-programa deverá efetuar a devida operação, mostrar o resultado na tela e apresentar o menu
-novamente, até que o usuário informe a opção 0 (sair) para encerrar a execução do programa.
-
-Estruturas Utilizadas:
-O programa deverá ser construído dentro de uma estrutura de repetição do-while, para que o
-usuário possa efetuar mais de uma operação, ou seja, operações poderão ser realizadas até
-que a opção 0 (sair) seja informada. A estrutura Switch deverá ser utilizada para a
-implementação das operações (case 1: adição, case 2: subtração, ...). A operação de
-potenciação deverá ser implementada (no case 5:) utilizando a estrutura while.*/
-
 #include <stdio.h>
 void main ()
 {
